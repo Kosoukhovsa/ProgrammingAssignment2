@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Its week 3 assignment
 
-## Write a short comment describing this function
-
+## function for create and cache matrix
 makeCacheMatrix <- function(x = matrix()) {
                 x_1 <<- NULL
                 set <- function(y) {
@@ -16,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## function for create inverse matrix
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
